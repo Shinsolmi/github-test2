@@ -1,0 +1,13 @@
+# 로그 파일 제외
+logs/
+*.log
+!important.log  # important.log 파일은 추적
+
+# 결과물 제외
+*.class
+
+# 환경 설정 파일 제외
+.env
+
+# globstar 패턴
+**/test/
